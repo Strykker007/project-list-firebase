@@ -1,0 +1,28 @@
+name: listadecompras
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  cloud_firestore: ^4.2.0
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.4.0
+  flutter:
+    sdk: flutter
+  flutter_modular: ^5.0.3
+  flutter_triple: ^1.2.8-dev.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  triple_test: ^1.0.0+1
+
+flutter:
+
+  uses-material-design: true
